@@ -20,4 +20,4 @@ The API is made with Flask and uses a .py file and .html file (as a template).
 To be sure that the API works well, make sure that you met all the requirements and then go on http://localhost:5000/
 
 
-All the steps we followed and how we proceeded, the results we obtained are described in the report.
+All the steps we followed, how we proceeded and the results we obtained are described in the report.
