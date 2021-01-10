@@ -12,7 +12,9 @@ To do the final prediction, we did the following steps on jupyter notebook:
 - data visualization & exploration of the training dataset
 - choice of the best model trying different ones, using cross-validation and grid search to boost the parameters
 - final prediction on the testing set
+
 We obtained an accuracy equal to: 99.6%
+
 You can find our results is the file prediction_responseVSactual_classes.txt which is in the folder named avila
 
 We did an API which asks to a user to enter a value for several attributes (not all of them to avoid you losing your time ;)).
