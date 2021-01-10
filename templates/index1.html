@@ -1,0 +1,32 @@
+<title>Index1 Form Demo</title>
+
+{% block content %}
+    <h1>Welcome to our API  :) </h1>
+    <form action="" method="post" novalidate>
+        <p>
+            {{ form.intercolumnar.label }}<br>
+            {{ form.intercolumnar(size=32) }}
+        </p>    
+        <p>
+            {{ form.upperMargin.label }}<br>
+            {{ form.upperMargin(size=32) }}
+        </p>
+        <p>
+            {{ form.lowerMargin.label }}<br>
+            {{ form.lowerMargin(size=32) }}
+        </p>
+        <p>
+            {{ form.exploitation.label }}<br>
+            {{ form.exploitation(size=32) }}
+        </p>   
+        <p>
+            {{ form.rowNumber.label }}<br>
+            {{ form.rowNumber(size=32) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+
+    <br>
+    <br>
+    {{ prediction_text}}
+{% endblock %}
